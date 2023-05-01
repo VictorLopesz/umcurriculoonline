@@ -1,0 +1,262 @@
+*{
+			margin: 0; 
+			border: 0;
+			padding: 0;
+			width: 100%;
+		}
+		html{
+			font-family: arial;
+			font-size: 62.5%;
+		}
+		body{
+			background: linear-gradient(to right, #00BFFF, #A9A9A9);
+		}
+	
+		header{
+			font-size: 1.8rem;
+			padding: 1rem;
+			padding-top: 1rem;	
+			position: fixed;
+			width: 100%;
+
+		}
+		
+		footer{
+			color: #000000;
+			background: linear-gradient(to right, #DCDCDC, #808080);
+			font-size: 1.1rem;
+			text-align: center;
+			padding: 0rem;
+			width: 100%;
+			bottom: 0;
+		}
+		#imagem-ola{
+			width: 10%;
+		}
+
+
+		@media(min-width: 280px) and (max-width: 4000px){
+			.icones{
+				width: 30px;
+				height: 30px;
+				left: 50%;
+		}
+		}
+		@media(min-width: 280px) and (max-width: 1500px){
+			.icones{
+				width: 30px;
+				height: 30px;
+				left: 50%;
+				
+		
+		}
+		}
+		.imagem-ti{
+			width: 20%;
+			margin-right: 6%;
+			margin-top: -10%;
+		}
+		.conteudo-topo1{
+			font-size: 1.6rem;
+			background-color: #fff;
+			padding: 2rem;
+			text-align: center;
+			margin-top: 4rem;
+			left: 23%;
+			max-width: 50%;
+			margin-right: 50%;
+			position: relative;
+			z-index: 1;
+			border-radius: 20px;
+
+		}
+		#meu-rosto{
+			width: 14%;
+			left: 20%;
+			margin-top: -3rem;
+
+		}
+		#ideia{
+			width: 30%;
+			margin-right: -15%;
+			margin-top: -22%;
+		}
+
+		#delicia{
+			width: 20%;
+			margin-right: -10%;
+			margin-top: -20%;
+		}
+		#piscada{
+			width: 30%;
+			margin-right: -18%;
+			margin-top: -18%;
+		}
+		#meditar{
+			width: 20%;
+			margin-left: -10%;
+			margin-top: -12%;
+		}
+
+		.conteudo-topo2{
+			font-size: 2rem;
+			background-color: #fff;
+			padding: 2rem;
+			text-align: center;
+			margin-top: 4rem;
+			margin-left: auto;
+			max-width: 70%;
+			margin-right: auto;
+			position: relative;
+			z-index: 1;
+			border-radius: 20px;
+		}
+		.conteudo-topo3{
+			font-size: 2rem;
+			background-color: #fff;
+			padding: 2rem;
+			text-align: center;
+			margin-top: 4rem;
+			margin-left: auto;
+			max-width: 60%;
+			margin-right: auto;
+			position: relative;
+			z-index: 1;
+			border-radius: 50px;
+		}
+		.conteudo-topo4{
+			font-size: 2rem;
+			background-color: #fff;
+			padding: 2rem;
+			text-align: center;
+			margin-top: 4rem;
+			margin-left: auto;
+			max-width: 50%;
+			margin-right: auto;
+			position: relative;
+			z-index: 1;
+			border-radius: 30px;
+
+		}
+		.conteudo-topo5{
+			font-size: 2rem;
+			background-color: #fff;
+			
+			text-align: center;
+			margin-top: 4rem;
+			margin-left: auto;
+			max-width: 50%;
+			margin-right: auto;
+			position: relative;
+			z-index: 1;
+			border-radius: 30px;
+		}
+
+		.conteudo-topo6{
+			font-size: 2rem;
+			background-color: #fff;
+			padding: 2rem;
+			text-align: center;
+			margin-top: 4rem;
+			margin-left: auto;
+			max-width: 60%;
+			margin-right: auto;
+			position: relative;
+			z-index: 1;
+			border-radius: 50px;
+
+		}
+
+		#redes{
+			background: linear-gradient(to right, #00BFFF, #A9A9A9);
+			margin-top: -1.9%;
+		}
+
+		#btn-limpar{
+			background-color: white;
+			color: #ff0000;
+			text-align: center;
+			padding: 5px;
+			font-weight: bold;
+		}
+
+		#btn-enviar{
+			background-color: white;
+			color: green;
+			text-align: center;
+			padding: 5px;
+			font-weight: bold;
+		}
+
+		h1{
+			font-size: 2.5rem;
+		}
+		h2{
+			font-size: 1.9rem;
+		}
+		h3{
+			font-size: 2rem;
+		}
+		h4{
+			font-size: 1.5rem;
+		}
+
+		figure{
+			text-align: center;
+		}
+		
+		#compras{ 
+			background-color: #ffff44;
+			width: 150px;
+			height: 100px;
+			right: 0;
+			position: fixed;
+			text-align: center;
+			margin-top: 6rem;
+			z-index: 1;
+		}
+		#grid-conteudo{
+			background-color: #dcdcdc;
+		}
+		.grid{
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+			grid-gap: 1px;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+		.grid div{
+			background-color: #fff;
+			text-align: center;
+			padding: 2px;
+		}
+		#formulario{
+			background-color: #dcdcdc;
+		}
+		input{
+			border: solid;
+			padding: 1px;
+			border-radius: 5px;
+			font-size: 1.5rem;
+		}
+		#mensagem{
+			border: solid;
+			padding: 2px;
+			border-radius: 5px;
+		}
+		nav{
+			text-align: right;
+			font-size: 1.6rem;
+			word-spacing: 10px;
+			margin-right: 5%;
+			padding-bottom: 5px;
+		}
+		a{
+			text-decoration: none;
+			color: #fff;
+			font-weight: bold;
+		}
+		a:hover{
+			color: #ffff00;
+		}
+ 
